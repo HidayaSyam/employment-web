@@ -1,0 +1,24 @@
+#header-btn a{
+    border-radius:50em;
+    border: 1px #006d6d solid;
+    padding: 7.5px 15px;
+}
+.nav-link{
+    color: white !important;
+}
+
+.work{
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.use-icon{
+    width: 40%;
+    height: 40%;
+}
+
+.card-img-top{
+    width: 20%;
+    height: 20%;
+}
