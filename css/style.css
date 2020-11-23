@@ -22,3 +22,80 @@
     width: 20%;
     height: 20%;
 }
+
+.img-name {
+    margin-bottom: 20px;
+}
+
+.img-name p{
+    display: inline-block;
+    margin: 0;
+    line-height: 50px;
+}
+
+.img-name img {
+    width: 50px;
+    margin-right: 10px;
+    
+    /* If you want to make a rounded imaage with padding inside remark the property below */
+
+     border-radius: 50%;
+    border: 2px solid #bbbbbb;
+    padding: 5px; 
+}
+
+.more-info p {
+    color: #aaaaaa;
+}
+
+.more-info a {
+    text-decoration: none;
+}
+
+.more-info div:first-child i {
+    color: #fd8c04;
+}
+
+.more-info div:nth-child(2) {
+    text-align: left;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+    max-width: 100%;
+  }
+  
+  .footer h2 {
+    font-size: 15pt;
+    font-weight: 600;
+    /* color: #fff; */
+    margin-bottom: 12px;
+  }
+  .footer p {
+    font-size: 9pt;
+    /* color: #fff; */
+    margin-bottom: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+  .footer p:nth-child(3) {
+    text-transform: capitalize;
+    letter-spacing: 2px;
+  }
+  
+  .footer div .fab {
+    font-size: 15pt;
+    /* color: #fff; */
+    margin-top: 15px;
+    margin-right: 20px;
+    letter-spacing: 30px;
+    cursor: pointer;
+  }
+  .footer div .fab:hover {
+    color: #f77d0e;
+    transition-duration: 360ms;
+  }
+  
