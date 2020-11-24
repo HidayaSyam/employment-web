@@ -17,55 +17,58 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
-        <a class="navbar-brand" href="#">WebSiteName</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb"
-            aria-expanded="true">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div id="navb" class="navbar-collapse collapse hide">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="./index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./browse.html">Browse Jobs</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./contactus.html">Contact Us</a>
-                </li>
-            </ul>
-
-            <ul class="nav navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><span class="fas fa-user"></span> Employers</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./login.html"><span class="fas fa-sign-in-alt"></span> Job Seeker</a>
-                </li>
-            </ul>
+    <main>
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+            <a class="navbar-brand" href="#">WebSiteName</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb"
+                aria-expanded="true">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navb" class="navbar-collapse collapse hide">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./browse.html">Browse Jobs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contactus.html">Contact Us</a>
+                    </li>
+                </ul>
+    
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span class="fas fa-user"></span> Employers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./login.html"><span class="fas fa-sign-in-alt"></span> Job Seeker</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container-fluid p-2" style="background-color: rgb(240, 240, 240);height:550px;">
+            <div>
+                <h2 class="work">Login</h2>
+            </div>
+            <form class=" shadow mx-auto mb-3 col-lg-3 col-md-6 col-xs-12" style="background-color: white; padding: 1rem;">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="form-group">
+                  <span>You don't have account ?<a href="./signup.html"> Sign Up</a></span>
+                </div>
+                <button type="submit" class="btn btn-primary btn-md btn-block">Login</button>
+            </form>
         </div>
-    </nav>
-    <div class="container-fluid p-5" style="background-color: rgb(240, 240, 240);height:550px;">
-        <div>
-            <h2 class="work">Login</h2>
-        </div>
-        <form class="mx-auto mb-3 w-75" style="background-color: white; padding: 1rem;">
-            <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                    placeholder="Enter email">
-            </div>
-            <div class="form-group">
-                <label for="exampleInputPassword1">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-            </div>
-            <div class="form-group">
-              <span>You don't have account ?<a href="./signup.html"> Sign Up</a></span>
-            </div>
-            <button type="submit" class="btn btn-primary btn-md btn-block">Login</button>
-        </form>
-    </div>
+    </main>
+    
 
 
     <div class="container footer ">
