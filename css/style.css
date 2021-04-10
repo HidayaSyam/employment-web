@@ -122,3 +122,15 @@
     width: 200px;
     margin: 1rem;
   }
+
+  .contact-image {
+    height:300px;
+    width:100%;
+    background-size:cover;
+    margin:50px auto;
+  }
+  .btn-contact{
+    background-color: #09bcd8;
+    color: white;
+    font-size: 24px;
+  }
